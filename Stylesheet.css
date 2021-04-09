@@ -43,6 +43,8 @@
     border-style: ridge;
 
     cursor: pointer;
+    
+    touch-action: manipulation;
 }
 
 #Indicador
