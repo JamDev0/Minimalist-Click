@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Minimalist Clicks</title>
+    <link rel="stylesheet" href="Stylesheet.css">
+    <link rel="icon" href="Assets/Icon.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <div id="Teste">
+        <div id="ClickBox">
+            <p id="Indicador">Click para começar o teste de <span id="ValorS">x</span> segundos</p>
+            <span id="Tempo"></span>
+        </div>
+    </div>
+
+    <div id="ContainerOp">
+        <button class="Opções" value="3">3s</button>
+        <button class="Opções" value="5">5s</button>
+        <button class="Opções" value="10">10s</button>
+        <button class="Opções" value="30">30s</button>
+        <button class="Opções" value="60" >60s</button>
+    </div>
+
+
+    <button id="Retry">Tentar novamente</button>
+
+
+    <div id="PósTeste">
+        <div id="Resultados">
+            <select id="OpFiltros">
+                <option value="Todos">Todos</option>
+                <option value="Só3">3</option>
+                <option value="Só5">5</option>
+                <option value="Só10">10</option>
+                <option value="Só30">30</option>
+                <option value="Só60">60</option>
+            </select>
+
+            <div id="Resul">
+
+            </div>
+        </div>
+    </div>
+    <script> </script>
+</body>
+<script src="Script.js"></script>
+</html>
